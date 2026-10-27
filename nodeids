@@ -1,0 +1,13 @@
+[
+  "tests/test_data_processing.py::test_bad_target_raises",
+  "tests/test_data_processing.py::test_missing_columns_raise",
+  "tests/test_data_processing.py::test_valid_frame_is_accepted",
+  "tests/test_predictions.py::test_demo_rule_is_labeled",
+  "tests/test_predictions.py::test_invalid_reading_does_not_recommend_irrigation",
+  "tests/test_safety.py::test_demo_mode_never_starts_pump",
+  "tests/test_safety.py::test_manual_start_requires_confirmation",
+  "tests/test_safety.py::test_max_runtime_forces_stop",
+  "tests/test_safety.py::test_stale_and_invalid_sensor_block_start",
+  "tests/test_sensor_and_training.py::test_sample_dataset_has_both_classes",
+  "tests/test_sensor_and_training.py::test_training_returns_measured_metrics"
+]
